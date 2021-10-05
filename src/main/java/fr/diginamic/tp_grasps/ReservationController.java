@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 import fr.diginamic.singleton.utils.DateUtils;
-import fr.diginamic.tp01_refacto.ReservationAmount;
+import fr.diginamic.tp01_refacto.ReservationCalculations;
 import fr.diginamic.tp01_refacto.ReservationFactory;
 import fr.diginamic.tp_grasps.beans.Client;
 import fr.diginamic.tp_grasps.beans.Reservation;

@@ -25,7 +25,7 @@ public class ReservationFactory {
 		reservation.setClient(client);
 		
 		//calcul du montant total
-		reservation.setTotal(ReservationAmount.getReservationAmount(typeReservation, client, nbPlaces));
+		reservation.setTotal(ReservationCalculations.getReservationTotalAmount(typeReservation, client, nbPlaces));
 		
 		//Ajout de la réservation au client
 		client.getReservations().add(reservation);
