@@ -4,15 +4,16 @@ public class DemoAvion {
 
 	public static void main(String[] args) {
 		Avion avion = new Avion();
-		avion.setEtat("AU SOL");
+		
+		avion.setEtat(new AvionAuSol());
 		avion.rentrerTrainAtterrissage();
 		avion.sortirTrainAtterrissage();
 		
-		avion.setEtat("EN VOL");
+		avion.setEtat(new AvionEnVol());
 		avion.rentrerTrainAtterrissage();
 		avion.sortirTrainAtterrissage();
 		
-		avion.setEtat("EN APPROCHE");
+		avion.setEtat(new AvionEnApproche());
 		avion.rentrerTrainAtterrissage();
 		avion.sortirTrainAtterrissage();
 
