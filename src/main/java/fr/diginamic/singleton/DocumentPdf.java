@@ -22,7 +22,7 @@ import fr.diginamic.singleton.utils.DateUtils;
  * @author RichardBONNAMY
  *
  */
-public class BulletinSalairePdf {
+public class DocumentPdf {
 
 	/** document */
 	private Document document;
@@ -52,7 +52,7 @@ public class BulletinSalairePdf {
 	 * Constructeur
 	 * 
 	 */
-	public BulletinSalairePdf(String filePath) {
+	public DocumentPdf(String filePath) {
 		
 		document = new Document();
 		try {

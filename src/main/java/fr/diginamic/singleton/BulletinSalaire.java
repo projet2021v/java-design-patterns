@@ -4,7 +4,7 @@ package fr.diginamic.singleton;
  * @author RichardBONNAMY
  *
  */
-public class BulletinSalaire {
+public class BulletinSalaire implements IDocument {
 
 	/** nom */
 	private String nom;

@@ -7,13 +7,13 @@ package fr.diginamic.singleton;
 public class DocumentPdfBuilder {
 	
 	/** documentPdf */
-	private BulletinSalairePdf documentPdf;
+	private DocumentPdf documentPdf;
 	
 	/** Constructeur
 	 * @param filepath path du fichier
 	 */
 	public DocumentPdfBuilder(String filepath) {
-		documentPdf = new BulletinSalairePdf(filepath);
+		documentPdf = new DocumentPdf(filepath);
 	}
 
 	/** Ajout de l'identité au document PDF
@@ -37,9 +37,9 @@ public class DocumentPdfBuilder {
 	}
 
 	/** Retourne le document PDF
-	 * @return {@link BulletinSalairePdf}
+	 * @return {@link DocumentPdf}
 	 */
-	public BulletinSalairePdf get() {
+	public DocumentPdf get() {
 		return documentPdf;
 	}
 
